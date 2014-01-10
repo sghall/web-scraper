@@ -1,5 +1,4 @@
-var scraper = require('./scraper.js'),
-    fs = require("fs");
+var scraper = require('./scraper.js');
 
 var dirData = [];
 
