@@ -1,10 +1,6 @@
 var scraper = require('./scraper.js'),
     fs = require("fs");
 
-// **************************************************************************
-// CREATE A SCRAPER OBJECT WITH THE METHODS IN THE SCRAPER.JS FILE
-// **************************************************************************
-//var dirScraper = scraper.makeScraper();
 var dirData = [];
 
 var directors = [
