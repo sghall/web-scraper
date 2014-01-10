@@ -3,7 +3,7 @@ var fs = require("fs");
 var keys ={}; nodes = [], links = [];
 
 // ******************************************************************************
-// THIS FILE TAKES DATA FROM ACTOR.JS AND CREATES THE NODES AND LINKS FOR THE VIZ
+// THIS FILE TAKES DATA FROM ACTORS.JS AND CREATES THE NODES AND LINKS FOR THE VIZ
 // ******************************************************************************
 fs.readFile('temp/actors.json', 'utf8', function (err, filmsJSON) {
   var films = JSON.parse(filmsJSON);
