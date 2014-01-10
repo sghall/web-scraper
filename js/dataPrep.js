@@ -2,9 +2,9 @@ var fs = require("fs");
 
 var keys ={}; nodes = [], links = [];
 
-// **************************************************************************
-// IMPORT THE FILMS DATA FROM FILMS.JS
-// **************************************************************************
+// ******************************************************************************
+// THIS FILE TAKES DATA FROM ACTOR.JS AND CREATES THE NODES AND LINKS FOR THE VIZ
+// ******************************************************************************
 fs.readFile('temp/actors.json', 'utf8', function (err, filmsJSON) {
   var films = JSON.parse(filmsJSON);
 
